@@ -50,10 +50,10 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Web Portal User Guide'
-copyright = '2019, Corporate Shields, LLC.'
-author = 'Corporate Shields'
+copyright = '2019, WebDisk.cloud.'
+author = 'WebDisk.cloud'
 
-prodname = 'NUBIA Drive'
+prodname = 'WebDisk'
 
 rst_epilog = '.. |prodname| replace:: %s' % prodname
 
