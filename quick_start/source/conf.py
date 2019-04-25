@@ -48,8 +48,8 @@ master_doc = 'contents'
 
 # General information about the project.
 project = 'Quick Start Guide'
-copyright = '2018, Gladinet, Inc.'
-author = 'Gladinet, Inc.'
+copyright = '2019, WebDisk.cloud.'
+author = 'WebDisk.cloud.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -131,7 +131,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'QuickStartGuide.tex', 'Quick Start Guide Documentation',
-     'Gladinet, Inc.', 'manual'),
+     'WebDisk.cloud.', 'manual'),
 ]
 
 
