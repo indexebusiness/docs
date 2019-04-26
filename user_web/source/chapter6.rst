@@ -4,7 +4,7 @@ Tenant Administrator
 
 Please reference the `Admin Guide`__ for full documentation of the tenant administration. Here we will go over several commonly touched areas for tenant administrators.
 
-.. _Admin_Guide: https://centrestack.com/Library/AdminGuide/ 
+.. _Admin_Guide: https://www.webdisk.cloud/Documentation/AdminGuide/ 
 __ Admin_Guide_
 
 Login and Manage
