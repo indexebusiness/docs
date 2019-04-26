@@ -9,7 +9,7 @@
 
 The way to connect the file servers are different, depending on where the file server is.
 
-The file server can be sitting in the same Local Area Network (LAN) as the CentreStack Server. In this case,
+The file server can be sitting in the same Local Area Network (LAN) as the |prodname| Server. In this case,
 the direct network share connection is the best. Usually this is combined with setting up direct LDAP connection
 to the Active Directory.
 
@@ -18,7 +18,7 @@ to the Active Directory.
 
     FILE SERVER CONNECTION
 
-The file server can also be remote, away from the CentreStack server and at the customer's premise. In this case, the best is to use file server agent. File server agent will be installed on the file server, and it is capable of connecting the customer's Active Directory and sync'ing both folder content and active directory over HTTPS. In this case, in the user interface, you will see "Proxied AD User" to indicate that the Active Directory user or group is coming from the file server agent.
+The file server can also be remote, away from the |prodname| server and at the customer's premise. In this case, the best is to use file server agent. File server agent will be installed on the file server, and it is capable of connecting the customer's Active Directory and sync'ing both folder content and active directory over HTTPS. In this case, in the user interface, you will see "Proxied AD User" to indicate that the Active Directory user or group is coming from the file server agent.
 
 .. figure:: _static/image103.png
     :align: center
@@ -37,14 +37,14 @@ The best way to start using file server agent to connect to remote file server i
 6.2 Files and Folder Permission
 *********************************
 
-If your files and folders are on a file server in the same Local Area Network (LAN) as the CentreStack server, the best way to manage file and folder permission is to delegate it 100% to the NTFS permission. In the "Storage Manager", when attach local storage, there is an option "Always access the storage using logon user identity", This option can be used to delegate file/folder permission check directly to NTFS.
+If your files and folders are on a file server in the same Local Area Network (LAN) as the |prodname| server, the best way to manage file and folder permission is to delegate it 100% to the NTFS permission. In the "Storage Manager", when attach local storage, there is an option "Always access the storage using logon user identity", This option can be used to delegate file/folder permission check directly to NTFS.
 
 .. figure:: _static/image105.png
     :align: center
 
     FILE AND FOLDER PERMISSIONS SETTINGS
 
-If you are not using native NTFS permission. For example, you are on cloud storage services such as Amazon S3 or OpenStack Swift, you can use CentreStack folder permission.
+If you are not using native NTFS permission. For example, you are on cloud storage services such as Amazon S3 or OpenStack Swift, you can use |prodname| folder permission.
 
 .. figure:: _static/image_s6_2_02.png
     :align: center
@@ -69,7 +69,7 @@ AD account auto provision
 
 This is the default setting in the Advanced -> Active Directory Settings.
 
-As long as the "Don't allow user auto-creation" is not checked, Active Directory users will be allowed to go to the web portal and login. The first time the user logs in, its CentreStack account will be automatically provisioned.
+As long as the "Don't allow user auto-creation" is not checked, Active Directory users will be allowed to go to the web portal and login. The first time the user logs in, its |prodname| account will be automatically provisioned.
 
 .. figure:: _static/image_s6_3_00.png
     :align: center
@@ -150,7 +150,7 @@ If you want to disable offline access for the team folder completely, you can ch
 User Offline Settings
 -----------------------
 
-Upon creating users in the CentreStack system (including users imported from Active Directory), there is an offline flag upon user creation.
+Upon creating users in the |prodname| system (including users imported from Active Directory), there is an offline flag upon user creation.
 
 Normally, we don't recommend checking the "Enable offline access for all folders" flag, because it will try to download every single file for the user when the user is connected, which can use a lot of bandwidth and slow things down.
 

@@ -24,10 +24,10 @@ The services can be deployed in flexible combinations to meet different needs. T
 
 
 
-Please reference the “Deployment Guide” as well as the “Installation Guide” for information on how to setup and deploy CentreStack.
+Please reference the “Deployment Guide” as well as the “Installation Guide” for information on how to setup and deploy |prodname|.
 This guide is focused on the administration of the |prodname|.
 
 .. note::
 
     This Administration Guide is for the Self-Hosted |prodname|.
-    For Hosted-CentreStack, please reference the Hosted CentreStack Admin Guide.
+    For Hosted-|prodname|, please reference the Hosted |prodname| Admin Guide.

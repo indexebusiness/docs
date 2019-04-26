@@ -912,7 +912,7 @@ Once you brand your own iOS client, Android client, Windows Phone and Windows St
 
 The application icon and drive icon URLs can be specified here. Also, you can put in your company name under ‘Manufacturer Name’ along with the ‘Contact Info’ email. You also have the option here to create your own branded MSI Windows client. You can also use your own code signing certificate in order to digitally sign the MSI package. The advantage of creating your own MSI client package is that when users download and install the Windows Client you provide, they will see your company name along with your branding during the client installation.
 
-Windows client supports multiple languages. Some language packs are included and shipped with CentreStack. If you need to run the Windows client under a different language, you can set the UI Language there.
+Windows client supports multiple languages. Some language packs are included and shipped with |prodname|. If you need to run the Windows client under a different language, you can set the UI Language there.
 
 .. figure:: _static/image_s4_5_30.png
     :align: center
@@ -1023,10 +1023,10 @@ You can read the ``transform.sh`` shell script for more details.
 
 .. note::
 
-    Branding the android client can now be automated from your partner portal (http://www.centrestack.com). 
-    The information here in this section is preserved for legacy reference. Please goto http://www.centrestack.com to brand the Android client.
+    Branding the android client can now be automated from your partner portal (https://www.webdisk.cloud). 
+    The information here in this section is preserved for legacy reference. Please goto https://www.webdisk.cloud to brand the Android client.
 
-The branding of Android client and iOS client is done from www.centrestack.com, instead 
+The branding of Android client and iOS client is done from www.webdisk.cloud, instead 
 of from your own  server. 
 
 .. figure:: _static/image_s4_5_50.png
@@ -1040,9 +1040,9 @@ of from your own  server.
 
 .. note::
 
-    Branding of iOS client can now be automated from partner portal (http://www.centrestack.com).
+    Branding of iOS client can now be automated from partner portal (https://www.webdisk.cloud).
 
-    The information here in this section is preserved for legacy reference. Please goto http://www.centrestack.com to brand iOS client.
+    The information here in this section is preserved for legacy reference. Please goto https://www.webdisk.cloud to brand iOS client.
 
 As shown in the above picture, you can generate branding task and request for Android branding
 and iOS branding.
@@ -1548,7 +1548,7 @@ App ID URI:
 Reply URL:
 
   This field can be 
-  https://your-centrestack-server/management/storageconfig/SkyDriveCallback.aspx
+  https://your-webdisk-server/management/storageconfig/SkyDriveCallback.aspx
 
 .. figure:: _static/image240.png
     :align: center
@@ -1698,7 +1698,7 @@ Once an application is enabled, you will be able to see the context menu entry f
 
 **Hide ‘Forgot your password’ link on login**
 
-    Most often it is used when Active Directory integration is set. The user will need to do a forget-and-change password the normal Active Directory way instead of the way CentreStack provides. In this case, it is recommend to hide the "Forgot your password" link.
+    Most often it is used when Active Directory integration is set. The user will need to do a forget-and-change password the normal Active Directory way instead of the way |prodname| provides. In this case, it is recommend to hide the "Forgot your password" link.
 
 
 **Don’t retry when login failed**
@@ -1860,7 +1860,7 @@ for Windows client.
 
 **Don't Show Tutorial Videos**
 
-    At different places in the web portal, there are tutorial videos. This setting is to hide those videos, which may have CentreStack references inside.
+    At different places in the web portal, there are tutorial videos. This setting is to hide those videos, which may have |prodname| references inside.
 
 
 **Enable Tenant Branding**

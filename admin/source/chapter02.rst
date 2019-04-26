@@ -6,7 +6,7 @@
 3.1 Management Scope
 **********************
 
-In the |prodname|, objects that can be managed are defined in the following picture.
+In |prodname|, objects that can be managed are defined in the following picture.
 You can manage objects at different levels from one single management portal. 
 
 .. image:: _static/ManagementScope.png
@@ -17,7 +17,7 @@ You can manage objects at different levels from one single management portal.
 
 The Partner Portal is used primarily for managing licenses and licenses distribution amongst all of your Servers. 
 
-The partner portal is located at http://www.centrestack.com, and you can login through here: https://www.centrestack.com/management/partnerloginpage.aspx. From the Partner Portal you can download the |prodname| software as well as manage the licensing of your Servers.
+For more information on our Partner Portal please email support@webdisk.cloud
 
 .. tip::
 
@@ -25,7 +25,7 @@ The partner portal is located at http://www.centrestack.com, and you can login t
     the end of the trial, you assign licenses from the partner portal to your
     Server and activate it into a production environment.
 
-Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can be managed via the Partner Portal.
+Both Self-Hosted Servers and Hosted Tenants can be managed via the Partner Portal.
 
 *******************************************
 3.3 Self-Hosted |prodname|
@@ -33,11 +33,10 @@ Both Self-Hosted Servers and Hosted CentreStack Tenants (sync4share) can be mana
 
 In the User Interface, the Self-Hosted |prodname| instance is referred to as a Cluster. A Cluster can be as small as a single Server or scaled out to include multiple Servers in a Server farm.
 
-**Hosted CentreStack**
+**Hosted |prodname|**
 
-In the Partner Portal, you can also manage tenants which are hosted by CentreStack (sync4share).
-This document doesn't cover Hosted CentreStack. Please refer to the Hosted
-CentreStack Administration Guide (https://www.centrestack.com/Library/HostedCentreStackGuide/index.html) for more information on hosted options.
+In the Partner Portal, you can also manage tenants which are hosted by |prodname|.
+This document doesn't cover Hosted |prodname|. Please email support@webdisk.cloud for more information on hosted options.
 
 **Tenants**
 

@@ -968,7 +968,7 @@ Disable "Check Out"
 
 Encrypt Local Cache
 
-    Once enabled, when a file is downloaded to cache, it is encrypted in-place. When an authorized user then accesses the file from the (M:) Mapped Cloud Drive, CentreStack automatically decrypts it on the fly and then returns it to the user. 
+    Once enabled, when a file is downloaded to cache, it is encrypted in-place. When an authorized user then accesses the file from the (W:) Mapped Cloud Drive, |prodname| automatically decrypts it on the fly and then returns it to the user. 
 
 Disable AutoCad Optimization
 
